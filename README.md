@@ -96,7 +96,7 @@ This is an example of how to list things you need to use the software and how to
    ```
 3. Create your .env variables in a .env archive
    ```
-    MONGO_URI: 'Enter your atlasDB connection URI';
+    MONGO_URI = 'Enter your atlasDB connection URI';
    ```
 
 
