@@ -88,7 +88,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/jguibrandao/SOLID-TDD.git
+   git clone https://github.com/jguibrandao/Node-Mongo-Auth.git
    ```
 2. Install NPM packages
    ```sh
@@ -119,22 +119,22 @@ Distributed under the ISC License. See `LICENSE` for more information.
 
 João Guilherme - [jguibrandao](https://www.linkedin.com/in/jguibrandao/) - jguibrandao@gmail.com
 
-Project Link: [https://github.com/jguibrandao/SOLID-TDD](https://github.com/jguibrandao/SOLID-TDD)
+Project Link: [https://github.com/jguibrandao/Node-Mongo-Auth](https://github.com/jguibrandao/Node-Mongo-Auth)
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/jguibrandao/SOLID-TDD.svg?style=for-the-badge
-[contributors-url]: https://github.com/jguibrandao/SOLID-TDD/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/jguibrandao/SOLID-TDD.svg?style=for-the-badge
-[forks-url]: https://github.com/jguibrandao/SOLID-TDD/network/members
-[stars-shield]: https://img.shields.io/github/stars/jguibrandao/SOLID-TDD.svg?style=for-the-badge
-[stars-url]: https://github.com/jguibrandao/SOLID-TDD/stargazers
-[issues-shield]: https://img.shields.io/github/issues/jguibrandao/SOLID-TDD.svg?style=for-the-badge
-[issues-url]: https://github.com/jguibrandao/SOLID-TDD/issues
-[license-shield]: https://img.shields.io/github/license/jguibrandao/SOLID-TDD.svg?style=for-the-badge
-[license-url]: https://github.com/jguibrandao/SOLID-TDD/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/jguibrandao/Node-Mongo-Auth.svg?style=for-the-badge
+[contributors-url]: https://github.com/jguibrandao/Node-Mongo-Auth/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jguibrandao/Node-Mongo-Auth.svg?style=for-the-badge
+[forks-url]: https://github.com/jguibrandao/Node-Mongo-Auth/network/members
+[stars-shield]: https://img.shields.io/github/stars/jguibrandao/Node-Mongo-Auth.svg?style=for-the-badge
+[stars-url]: https://github.com/jguibrandao/Node-Mongo-Auth/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jguibrandao/Node-Mongo-Auth.svg?style=for-the-badge
+[issues-url]: https://github.com/jguibrandao/Node-Mongo-Auth/issues
+[license-shield]: https://img.shields.io/github/license/jguibrandao/Node-Mongo-Auth.svg?style=for-the-badge
+[license-url]: https://github.com/jguibrandao/Node-Mongo-Auth/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jguibrandao
 [product-screenshot]: images/screenshot.png
