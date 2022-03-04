@@ -57,7 +57,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-An API that students make projects and submit then for receive the correction of their projects
+A MongoDB and NodeJS auth API, nothing new, just for praticing and getting better.
 
 ### Built With
 
