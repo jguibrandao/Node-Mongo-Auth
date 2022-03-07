@@ -1,4 +1,5 @@
 const UserController = require("./controllers/userController")
+const Auth = require("./middlewares/auth")
 
 const routes = require("express").Router()
 
@@ -13,6 +14,6 @@ routes.get('/', (req, res) => {
 routes.post('/auth/register', UserController.register)
 routes.post('/auth/login', UserController.login)
 
-routes.get('/user/:id', UserController.findOne)
+routes.get('/user/:id', Auth.checkToken, UserController.findOne)
 
 module.exports = routes
