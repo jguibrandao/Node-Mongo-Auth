@@ -52,7 +52,7 @@ class UserController {
     async findOne(req, res) {
         try {
             const { id } = req.params
-            const user = await User.findOne({ _id: id })
+            const user = await User.findById(id, '-password')
             
             return res.status(201).json(user)
         } catch (error) {
