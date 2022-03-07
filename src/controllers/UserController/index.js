@@ -26,8 +26,27 @@ class UserController {
         } catch (error) {
             return res.status(400).json(error)
         }
-        
-        
+    }
+
+    async login(req, res) {
+        const {email, password} = req.body
+        const user = await User.findOne({ email: email })
+
+        if(!email || !password) {
+            return res.status(401).json({ msg: 'Missing credentials' })
+        }
+
+        if(!user) {
+            return res.status(401).json({ msg: "User doesn't exists" })
+        }
+
+        const checkPassword = await Auth.checkPassword(password, user.password)
+
+        if(!checkPassword) {
+            return res.status(401).json({ msg: 'Invalid password' })
+        }
+
+        Auth.authLogin(user, res)
     }
 }
 
