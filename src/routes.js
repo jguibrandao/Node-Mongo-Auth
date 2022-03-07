@@ -11,5 +11,6 @@ routes.get('/', (req, res) => {
 })
 
 routes.post('/auth/register', UserController.register)
+routes.post('/auth/login', UserController.login)
 
 module.exports = routes
