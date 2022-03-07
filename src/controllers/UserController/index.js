@@ -48,6 +48,17 @@ class UserController {
 
         Auth.authLogin(user, res)
     }
+
+    async findOne(req, res) {
+        try {
+            const { id } = req.params
+            const user = await User.findOne({ _id: id })
+            
+            return res.status(201).json(user)
+        } catch (error) {
+            return res.status(404).json({ msg: 'User not found' })
+        }
+    }
 }
 
 module.exports = new UserController()
