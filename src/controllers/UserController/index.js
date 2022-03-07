@@ -9,6 +9,10 @@ class UserController {
         if(userExists) {
             return res.status(401).json({msg: 'User already exists'})
         }
+
+        if(!password || !email || !name) {
+            return res.status(401).json({msg: 'Missing credentials'})
+        }
           
         if(confirmpassword != password) {
             return res.status(401).json({msg: 'Diff passwords'})
